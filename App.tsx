@@ -19,20 +19,20 @@ import {
   ExternalLink,
   ChevronLeft
 } from 'lucide-react';
-import { INITIAL_CONTENT, INITIAL_MENU, INITIAL_EVENTS, INITIAL_BLOG, INITIAL_TESTIMONIALS } from './constants';
-import { SiteContent, MenuItem, EventItem, BlogPost, Testimonial } from './types';
+import { INITIAL_CONTENT, INITIAL_MENU, INITIAL_EVENTS, INITIAL_BLOG, INITIAL_TESTIMONIALS } from './constants.tsx';
+import { SiteContent, MenuItem, EventItem, BlogPost, Testimonial } from './types.ts';
 
 // Components
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
-import Home from './pages/Home';
-import MenuPage from './pages/MenuPage';
-import WineClubPage from './pages/WineClubPage';
-import EventsPage from './pages/EventsPage';
-import AboutPage from './pages/AboutPage';
-import PrivateDiningPage from './pages/PrivateDiningPage';
-import BlogPage from './pages/BlogPage';
-import AdminDashboard from './pages/AdminDashboard';
+import Navbar from './components/Navbar.tsx';
+import Footer from './components/Footer.tsx';
+import Home from './pages/Home.tsx';
+import MenuPage from './pages/MenuPage.tsx';
+import WineClubPage from './pages/WineClubPage.tsx';
+import EventsPage from './pages/EventsPage.tsx';
+import AboutPage from './pages/AboutPage.tsx';
+import PrivateDiningPage from './pages/PrivateDiningPage.tsx';
+import BlogPage from './pages/BlogPage.tsx';
+import AdminDashboard from './pages/AdminDashboard.tsx';
 
 const App: React.FC = () => {
   // Global State for Content (Simulation of a CMS database)
