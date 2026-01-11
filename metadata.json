@@ -1,0 +1,7 @@
+{
+  "name": "Lenoir Restaurant Digital Presence",
+  "description": "A premium, fully-responsive website for Lenoir Restaurant, featuring seasonal fine dining, a wine garden, an integrated CMS, and a sleek admin dashboard for managing reservations, menus, and events.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
